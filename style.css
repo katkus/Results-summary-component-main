@@ -1,0 +1,289 @@
+body {
+  background-color: hsl(221, 100%, 96%);
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 1.0rem;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 86.4rem;
+  max-height: 60rem;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+@media (max-width: 23.5rem) {
+  body {
+    width: 23.4375rem;
+    height: 50.5625rem;
+  }
+}
+
+main {
+  width: 45.9rem;
+  height: 31.9rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(200, 209, 220, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(200, 209, 220, 1);
+  box-shadow: 8px 8px 24px 0px rgba(200, 209, 220, 1);
+}
+
+@media (max-width: 23.5rem) {
+  main {
+    width: 23.4375rem;
+    height: 50.5625rem;
+    flex-direction: column;
+    border-radius: 0;
+    margin: 0;
+  }
+}
+
+.yourResult {
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%) 0, hsl(241, 81%, 54%) 80%);
+  color: hsl(241, 100%, 89%);
+  width: 23.4rem;
+  height: 30.9rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  border-radius: 1.5rem;
+}
+
+@media (max-width: 23.5rem) {
+  .yourResult {
+    width: 23.4375rem;
+    height: 22.0rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    padding-top: 0rem;
+  }
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+@media (max-width: 23.5rem) {
+  h3 {
+    font-size: 1.15rem;
+  }
+}
+
+.circle {
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) 20%, hsla(241, 72%, 46%, 0) 95%);
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+@media (max-width: 23.5rem) {
+  .circle {
+    width: 8.3rem;
+    height: 12rem;
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 3.0rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+@media (max-width: 23.5rem) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+
+.maximumPointsFromMainResult {
+  color: hsl(249, 100%, 79%);
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 23.5rem) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+p {
+  width: 15.6rem;
+  margin: 0.3rem 3.9rem;
+  padding-bottom: 3rem;
+  color: hsl(241, 100%, 89%);
+}
+
+@media (max-width: 23.5rem) {
+  p {
+    width: 16rem;
+    padding-bottom: 2.3rem;
+    margin: 0;
+  }
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  margin: 0 2.4rem;
+}
+
+@media (max-width: 23.5rem) {
+  .summary {
+    margin: 1.4rem 0rem;
+  }
+}
+
+h4 {
+  color: hsl(224, 30%, 27%);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 23.5rem) {
+  h4 {
+    font-size: 1.1rem;
+  }
+}
+
+.resultsAndMaximumPoints {
+  width: 18.0rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1.0rem 0;
+  margin-bottom: 1.6rem;
+}
+
+@media (max-width: 23.5rem) {
+  .resultsAndMaximumPoints {
+    width: 20rem;
+    margin: 1rem 0;
+  }
+}
+
+.resultsAndMaximumPoints > * {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 15.8rem;
+  height: 3.3rem;
+  margin: 0.6rem 0;
+  padding: 0 1.0rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 23.5rem) {
+  .resultsAndMaximumPoints > * {
+    width: 18.0rem;
+  }
+}
+
+.reactionRectangle {
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 100%, 67%, 0.05);
+}
+
+.memoryRectangle {
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 100%, 56%, 0.05);
+}
+
+.verbalRectangle {
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(166, 100%, 37%, 0.05);
+}
+
+.visualRectangle {
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 85%, 45%, 0.05);
+}
+
+.iconAndName {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 7.6rem;
+}
+
+.iconAndName > * {
+  padding-right: 0.8rem;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3.8rem;
+}
+
+@media (max-width: 23.5rem) {
+  .results{
+    padding-left: 6.35rem;
+  }
+}
+
+.result {
+  color: hsl(224, 30%, 27%);
+}
+
+.maximumPoints {
+  color: gray;
+}
+
+.buttonContinue {
+  width: 18.1rem;
+  height: 3.6rem;
+  border-radius: 1.5rem;
+  background-color: hsl(224, 30%, 27%);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 23.5rem) {
+  .buttonContinue {
+    border-radius: 2rem;
+    width: 19.65rem;
+  }
+}
+
+.buttonContinue:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%) -30%, hsl(241, 81%, 54%) 100%);
+}
