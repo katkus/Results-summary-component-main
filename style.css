@@ -75,13 +75,13 @@ main {
   }
 }
 
-.titleYourResult {
+h1 {
   font-size: 1.6rem;
   font-weight: 700;
 }
 
 @media (max-width: 23.5rem) {
-  .titleYourResult{
+  h1{
     font-size: 1.15rem;
   }
 }
