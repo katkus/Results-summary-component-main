@@ -75,13 +75,13 @@ main {
   }
 }
 
-h3 {
+.titleYourResult {
   font-size: 1.6rem;
   font-weight: 700;
 }
 
 @media (max-width: 23.5rem) {
-  h3 {
+  .titleYourResult{
     font-size: 1.15rem;
   }
 }
@@ -106,7 +106,7 @@ h3 {
   }
 }
 
-h1 {
+.myResult{
   color: white;
   font-size: 3.0rem;
   font-weight: 800;
@@ -114,7 +114,7 @@ h1 {
 }
 
 @media (max-width: 23.5rem) {
-  h1 {
+  .myResult{
     font-size: 3.2rem;
   }
 }
@@ -124,7 +124,7 @@ h1 {
   font-weight: 700;
 }
 
-h2 {
+.great {
   color: white;
   font-size: 2rem;
   font-weight: 700;
@@ -132,7 +132,7 @@ h2 {
 }
 
 @media (max-width: 23.5rem) {
-  h2 {
+  .great{
     font-size: 1.5rem;
   }
 }
@@ -168,7 +168,7 @@ p {
   }
 }
 
-h4 {
+h2 {
   color: hsl(224, 30%, 27%);
   font-size: 1.6rem;
   font-weight: 700;
@@ -177,7 +177,7 @@ h4 {
 }
 
 @media (max-width: 23.5rem) {
-  h4 {
+  h2 {
     font-size: 1.1rem;
   }
 }
